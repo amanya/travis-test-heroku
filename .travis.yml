@@ -1,0 +1,11 @@
+language: php
+php: 7.0
+services:
+- mysql
+addons:
+  apt:
+    sources:
+    - heroku
+    packages:
+    - heroku-toolbelt
+script: true
