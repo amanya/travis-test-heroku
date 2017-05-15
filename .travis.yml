@@ -8,8 +8,4 @@ addons:
     - heroku
     packages:
     - heroku-toolbelt
-script: true
-env:
-  global:
-    TRAVIS_BUILD_APT_PACKAGE_WHITELIST: https://raw.githubusercontent.com/travis-ci/apt-package-whitelist/master/ubuntu-precise
-    TRAVIS_BUILD_APT_SOURCE_WHITELIST: https://raw.githubusercontent.com/travis-ci/apt-source-whitelist/master/ubuntu.json
+script: sleep 300
