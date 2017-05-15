@@ -8,4 +8,4 @@ addons:
     - heroku
     packages:
     - heroku-toolbelt
-script: sleep 300
+script: true
