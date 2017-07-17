@@ -5,5 +5,5 @@ addons:
     sources:
     - heroku
     packages:
-    - heroku-toolbelt
+    - heroku
 script: true
